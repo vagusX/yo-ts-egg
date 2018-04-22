@@ -1,0 +1,35 @@
+{
+  "name": "generator-ts-egg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "vagusX",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^1.0.0-rc.2",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.12.1",
+    "sort-package-json": "^1.12.0",
+    "yeoman-generator": "^2.0.4"
+  }
+}
