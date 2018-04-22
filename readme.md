@@ -1,5 +1,7 @@
 # yo-ts-egg
 
+![generator-ts-egg](https://img.shields.io/npm/v/generator-ts-egg.svg)
+
 ## Usage
 
 ### install
