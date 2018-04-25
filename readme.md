@@ -1,5 +1,7 @@
 # yo-ts-egg
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vagusX/yo-ts-egg.svg)](https://greenkeeper.io/)
+
 ![generator-ts-egg](https://img.shields.io/npm/v/generator-ts-egg.svg)
 
 ## Usage
